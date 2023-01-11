@@ -14,4 +14,3 @@ EXPOSE 8000
 RUN addgroup app && adduser -S -G app app
 USER app
 
-CMD [ "php" , "artisan" , "ser" ]
